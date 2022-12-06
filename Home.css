@@ -1,0 +1,363 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.top-head
+{
+    background-color: #ffa600;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    position: relative;
+}
+
+.logo
+{
+    margin-left: 200px;
+}
+
+.head-content
+{
+    width: 650px;
+    height: 40px;
+    /* background-color: brown; */
+    display: flex; 
+    margin-top: 33px;
+}
+
+.box
+{
+    width: 100px;
+    height: 25px;
+    /* background-color: aqua; */
+    border-right: solid 1px rgba(252, 252, 252, 0.404);
+    text-align: center;
+    padding-top: 14px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+.bg-image
+{
+    width: 100%;
+}
+
+/*---------------------------*/
+
+.second-head
+{
+    width: 100%;
+    height: 420px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.second-block
+{
+    margin: 0 auto;
+    display: flex;
+}
+
+.info-block
+{
+    width: 650px;
+    height: 380px;
+    /* background-color: aqua; */
+    
+}
+
+.info-content
+{
+    width: 320px;
+    height: 160px;
+    /* background-color: chartreuse; */
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#info-inside
+{
+    display: flex;
+}
+
+#info-heading
+{
+    font-size: larger;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+
+#info-text
+{
+    /* display: block; */
+    /* background-color: aqua; */
+
+}
+
+p
+{
+    color: gray;
+    font-size: 14px;
+}
+
+a
+{
+    color: #ffad00;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #ff7b00;
+}
+
+/*---------------------------*/
+
+.third-head
+{
+    width: 300px;
+    height: 380px;
+    /* background-color: purple; */
+    display: block;
+}
+
+.third-searchbar
+{
+    width: 300px;
+    height: 70px;
+    background-color:#ffad00;
+    border-radius: 5px;
+}
+
+#input-box
+{
+    margin: 8px 0px 0px 10px;
+    height: 28px;
+    width: 195px;
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.233);
+    box-shadow: 50px;
+}
+
+#button
+{
+    height: 28px;
+    width: 80px;
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.308);
+    background-color: #ffad00;
+    color: white;
+}
+
+.radio-button
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.third-guide
+{
+    width: 300px;
+    height: 300px;
+    /* background-color: brown; */
+    margin-top: 30px;
+}
+
+#third-box
+{
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+
+#individual-1
+{
+    background-image: url(./Photos/bg-tab1.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 125px;
+    padding-top: 5px;
+    padding-left: 15px;
+    /* background-color:aqua; */
+}
+
+#individual-2
+{
+    background-image: url(./Photos/bg-tab2.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 125px;
+    padding-top: 5px;
+    padding-left: 15px;
+    /* background-color:aqua; */
+}
+
+#individual-1 a, #individual-2 a
+{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar
+{
+    margin-top: -10px;
+}
+
+.bottombar
+{
+    margin-top: -10px;
+}
+
+.main-box
+{
+    margin-top: -5px;
+    width: 300px;
+    height: 260px;
+    background-color: #fcd37c;
+}
+
+#list
+{
+    width: 280px;
+    height: 30px;
+    margin: 0 10px 3px 12px;
+    background-color:#f5c254;
+    border-radius: 7px;
+    display: flex;
+}
+
+#pet
+{
+    color: #7f7154;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+#see-all
+{
+    color: #e4a217;
+    margin-top: 8px;
+    position: absolute;
+    margin-left: 230px;
+}
+
+/*--------------------------------*/
+
+.third-body
+{
+    height: 120px;
+    width: 100%;
+    background-color: #f8f3e9;
+}
+
+.third-inside
+{
+    height: 120px;
+    width: 1000px;
+    /* background-color: darkgreen; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#organic
+{
+    width: 300px;
+    height: 90px;
+    margin-top: 15px;
+    background: url(./Photos/organic-and-chemical-free.jpg);
+    border-radius: 10px;
+}
+
+#good
+{
+    width: 300px;
+    height: 90px;
+    margin-top: 15px;
+    background: url(./Photos/good-food.jpg);
+    border-radius: 10px;
+}
+
+#pet-grooming
+{
+    width: 300px;
+    height: 90px;
+    margin-top: 15px;
+    background: url(./Photos/pet-grooming.jpg);
+    border-radius: 10px;
+}
+
+/*--------------------------------*/
+.forth-body
+{
+    height: 190px;
+    width: 100%;
+    background-color: #310000;
+}
+
+.forth-inside
+{
+    height: 190px;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.forth-image
+{
+    position: relative;
+    display: block;
+}
+
+#img-container
+{
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+#img-container > a
+{
+    color: green;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+#img-container p
+{
+    color: white;
+}
+
+/*--------------------------------*/
+
+.fifth-body
+{
+    height: 50px;
+    width: 100%;
+    background-color: #ffad00;
+    text-align: center;
+}
+
+#fifthy-text
+{
+    padding-top: 15px;
+    font-size: small;
+}
+
